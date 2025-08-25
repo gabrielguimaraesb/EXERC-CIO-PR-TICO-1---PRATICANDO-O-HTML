@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de Aulas</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid red; /* Borda vermelha como na imagem */
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Horário de Aulas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Disciplina</th>
+                <th>Professor</th>
+                <th>Horário</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Inglês</td>
+                <td>Prof. Silva</td>
+                <td>08:00 - 09:00</td>
+            </tr>
+            <tr>
+                <td>Filosofia</td>
+                <td>Profa. Maria</td>
+                <td>09:15 - 10:15</td>
+            </tr>
+            <tr>
+                <td>História</td>
+                <td>Prof. João</td>
+                <td>10:30 - 11:30</td>
+            </tr>
+            <tr>
+                <td>Português</td>
+                <td>Profa. Ana</td>
+                <td>11:45 - 12:45</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
