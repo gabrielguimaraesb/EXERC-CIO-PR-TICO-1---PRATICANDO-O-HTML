@@ -8,7 +8,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            border: 2px solid red; /* Borda vermelha como na imagem */
+            border: 2px solid red;
         }
         table, th, td {
             border: 1px solid black;
